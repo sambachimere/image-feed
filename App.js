@@ -10,11 +10,6 @@ import Constants from "expo-constants";
 import Feed from './screens/Feed';
 import Comments from "./screens/Comments"
 
-const items = [
-  {id: 0, author: 'Kemi Seba'},
-  {id: 1, author: 'Samba Diaw'},
-];
-
 export default class App extends React.Component {
   state = {
     commentsForItem: {},
